@@ -1,0 +1,109 @@
+     /* Style global */
+     * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Arial', sans-serif;
+    }
+
+    :root{
+        --background-color: #070791;
+    }
+
+    /* Header fixe */
+    header {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: var(--background-color);
+        color: white;
+        text-align: center;
+        padding: 15px 0;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+    }
+
+    html, body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+    }
+    
+
+    /* Style du corps */
+    body {
+        margin-top: 70px;
+        background-color: #f4f4f4;
+        color: #333;
+        text-align: center;
+    }
+
+    /* Formulaire */
+    form {
+        background: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        max-width: 400px;
+        margin: 20px auto;
+    }
+
+    form label {
+        display: block;
+        margin-bottom: 8px;
+        font-weight: bold;
+    }
+
+    form input[type="text"],
+    form input[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #000;
+        border-radius: 4px;
+    }
+
+    form input[type="submit"] {
+        background-color: var(--background-color);
+        color: white;
+        cursor: pointer;
+    }
+
+    form input[type="submit"]:hover {
+        background-color: #000000;
+    }
+
+    /* Table */
+    table {
+        width: 80%;
+        border-collapse: collapse;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2%;
+        background: white;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    table th, table td {
+        padding: 12px;
+        border: 1px solid #ddd;
+        text-align: left;
+    }
+
+    table th {
+        background-color: var(--background-color);
+        color: white;
+    }
+
+    /* Footer fixe */
+    footer {
+        text-align: center;
+        padding: 10px;
+        background-color: var(--background-color);
+        color: white;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    }
